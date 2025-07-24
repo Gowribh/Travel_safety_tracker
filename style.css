@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #e3f2fd;
+  color: #333;
+}
+
+.hero {
+  background: url('assets/travel.jpg') center/cover no-repeat;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  background-blend-mode: darken;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.content {
+  padding: 30px;
+  display: grid;
+  gap: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  border-left: 8px solid #00796b;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card h2 {
+  color: #00796b;
+  margin-bottom: 10px;
+}
+
+span {
+  font-weight: bold;
+  color: #1a73e8;
+}
+
+footer {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 14px;
+  color: #555;
+}
+
+
